@@ -1,9 +1,12 @@
-!eew �ōŐV�̒n�k����\���ł��܂��B
+このBotはDiscordで地震情報を表示できるbotです。
+速報Bot化するのは仕様上NHKの回線帯域を占領することになるためおすすめできません。
 
-!eew,�����őΉ�����n�k����\���ł��܂��B(!eew,3�Ȃ�3�Ԗ�)
+!eew で最新の地震情報を表示できます。
 
-����Bot��NHK�̒n�k���XML���擾���ĕ\�����Ă��܂��B
+!eew,数字で対応する地震情報を表示できます。(!eew,3なら3番目)
 
-settings.py�Ƀg�[�N�����L�q���Ă��������B
+このBotはNHKの地震情報XMLを取得して表示しています。
 
-�K�v�ȃ��C�u������Discord,py�݂̂ł�
+settings.pyにトークンを記述してください。
+
+必要なライブラリはDiscord,pyのみです
