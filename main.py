@@ -14,7 +14,7 @@ client = discord.Client()
 @client.event
 async def on_message(message):
     mc = message.content.split(',')
-    if mc[0] == '!eew':
+    if mc[0] == '!ei':
         er = e(mc[1]) if 1<len(mc) else e(0)
         embed = discord.Embed(title='**地震情報**', description='', color=0x51b3fc)
         if er['status'] == 'OK':
